@@ -395,23 +395,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document22]
-DocumentPath=SI5324_CLK_RECOVERY.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document23]
 DocumentPath=PWR_buck_FPGA_EXAR.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,7 +411,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document23]
 DocumentPath=RTM_IPMI.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -445,7 +428,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document24]
 DocumentPath=FPGA_7A35T.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -462,7 +445,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document25]
 DocumentPath=FPGA_7A35T_GTP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -479,7 +462,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ATMWIACW
 
-[Document27]
+[Document26]
 DocumentPath=FPGA_7A35T_GTP.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -496,7 +479,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document27]
 DocumentPath=Clock_Distribution_PLL.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -513,7 +496,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document28]
 DocumentPath=DAC_AFE_Mezzanine.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,7 +513,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document29]
 DocumentPath=DAC_JESD204B.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -547,7 +530,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document30]
 DocumentPath=Sayma_RTM.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -564,7 +547,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document31]
 DocumentPath=SI5324_CDR_WR_clocks.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -581,7 +564,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document33]
+[Document32]
 DocumentPath=HMC830_CLK_DIST.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2075,11 +2058,11 @@ Net3=NetName=VCC_CLOCKOUT3|NetColor=$006EFF6E
 Net4=NetName=P6V0|NetColor=clYellow
 Net5=NetName=P3V3_HMC|NetColor=$006EFF6E
 Net6=NetName=LTM_2V5_OUT|NetColor=$000078F7
-Net7=NetName=N12V0AFEM|NetColor=$00575860
-Net8=NetName=P3V3_CLKDIS1F|NetColor=$006EFF6E
-Net9=NetName=P2V0|NetColor=$00FFFF6E
-Net10=NetName=SIOVDD33|NetColor=$006EFF6E
-Net11=NetName=GND|NetColor=$000000BF
+Net7=NetName=P2V0|NetColor=$00FFFF6E
+Net8=NetName=SIOVDD33|NetColor=$006EFF6E
+Net9=NetName=GND|NetColor=$000000BF
+Net10=NetName=N12V0AFEM|NetColor=$00575860
+Net11=NetName=P3V3_CLKDIS1F|NetColor=$006EFF6E
 Net12=NetName=P5V0_LDO_IN|NetColor=$00FF6E6E
 Net13=NetName=N12V0ATP|NetColor=$00575860
 Net14=NetName=VCC2_OUT|NetColor=$006EFF6E
@@ -2106,14 +2089,14 @@ Net34=NetName=NetC139_2|NetColor=$006EFF6E
 Net35=NetName=P2V5FTP|NetColor=$000083FD
 Net36=NetName=P2V5F|NetColor=$004C9AF5
 Net37=NetName=P4V0|NetColor=$00FF6E6E
-Net38=NetName=P6V0_LDO|NetColor=clYellow
-Net39=NetName=LTM_1V2_OUT|NetColor=clAqua
-Net40=NetName=P2V0_Buck|NetColor=$00FFFF6E
-Net41=NetName=NetC288_1|NetColor=$0000BE00
+Net38=NetName=SVDD12|NetColor=$00CA9C00
+Net39=NetName=P3V3_CLKDIS4F|NetColor=$006EFF6E
+Net40=NetName=P6V0_LDO|NetColor=clYellow
+Net41=NetName=LTM_1V2_OUT|NetColor=clAqua
 Net42=NetName=P6V0A|NetColor=clYellow
-Net43=NetName=SVDD12|NetColor=$00CA9C00
+Net43=NetName=P2V0_Buck|NetColor=$00FFFF6E
 Net44=NetName=VCC_PLL|NetColor=$006EFF6E
-Net45=NetName=P3V3_CLKDIS4F|NetColor=$006EFF6E
+Net45=NetName=NetC288_1|NetColor=$0000BE00
 Net46=NetName=DVDD12|NetColor=$00CA9C00
 Net47=NetName=P12V0ATP|NetColor=$00A6A6B0
 Net48=NetName=P5V0_HMC|NetColor=$008F88FF
